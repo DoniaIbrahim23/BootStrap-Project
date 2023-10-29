@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/BootStrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="bg-light">
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card mt-5 shadow">
+            <div class="card-header text-bg-primary">
+            Login as admin </div>
+
+            <div class="card-body">
+              <form action="dash.html">
+                <!-- user name -->
+                <div class="form-floating mb-3">
+                  <input type="text" id="userName" class="form-control" autofocus/>
+
+                  <label for="userName">username</label>
+                </div>
+                <!-- password -->
+                <div class="form-floating mb-3">
+                  <input type="password" id="password" class="form-control" />
+
+                  <label for="password">password</label>
+                </div>
+                <!-- remember me -->
+                <div class="form-check mb-3">
+                  <input type="checkbox" class="form-check-input" id="rememberMe"/>
+                  <label for="rememberMe"> Remember me</label>
+
+                </div>
+                <!-- login button -->
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-success">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    Login as admin</button> 
+                </div>         
+              </form>
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <script src="assets/BootStrap/js/bootstrap.bundle.js"> </script>
+  </body>
+</html>
